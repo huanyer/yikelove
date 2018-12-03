@@ -1,0 +1,24 @@
+<!--pages/result/result2/result2.wxml-->
+<view class='page'>
+  <view class="result-top">
+    <image mode='widthFix' style="width:100%;" src="http://image.317hu.com/FnfCMRwfpseMI07r0mtAV-zDju4j?imageView2/2/w/700/q/100/interlace/1"></image>
+    <text class="title1">您的宝宝离贝多芬</text>
+    <text class="title2">还有{{year}}年</text>
+    <text class="title3">得分{{showScore}}分，领先了全国{{percentage}}%宝宝</text>
+  </view>
+
+  <view class='evaluate'>
+    <view class='evaluate-title'>分析结果</view>
+    <view class='evaluate-info'>
+      <view style="font-size:16px;text-indent:25px;">宝宝音乐天赋：{{title}}</view>
+      <view style="text-indent:25px;">
+        {{content}}
+      </view>
+    </view>
+  </view>
+  <view class='tab-title'>
+    <text class='line'></text> 领取知名早教机构优惠
+    <text class='line'></text>
+  </view>
+  <AdList/>
+</view>

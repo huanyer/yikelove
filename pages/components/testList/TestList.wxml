@@ -1,0 +1,19 @@
+<!--pages/testList/testList.wxml-->
+<view class="page">
+  <view class="list">
+    <view class='item' wx:for="{{listData}}" wx:key='item'>
+      <view bindtap='navigatorHandler' data-index='{{index+1}}' >
+        <text wx:if="{{item.parent}}" class="test-type test-type2">父母卷</text>
+        <text wx:else class="test-type">宝宝卷</text>
+        <image mode="widthFix" class='item-bg' src="{{item.bgImg}}" />
+        <text class='item-name'>{{item.name}}</text>
+        <view class='item-status' wx:if="{{item.status == 1}}">
+          <image mode="widthFix" class='status-img' src="{{unLockImg}}" />已解锁
+        </view>
+        <view class='item-status' wx:else>
+          <image mode="widthFix" class='status-img' src="{{lockImg}}" />未解锁
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

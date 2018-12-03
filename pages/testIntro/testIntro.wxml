@@ -1,0 +1,64 @@
+<!--pages/testIntro/testIntro.wxml-->
+<view class="page">
+  <view class="background background1" wx:if="{{id==1}}">
+    <view class="share-body">
+      <image class="title" mode="widthFix" src="http://image.317hu.com/FsCK6XkExXBDYmIRGXqYT63uP7w2?imageView2/2/w/700/q/100/interlace/1" />
+
+      <view style="font-size:14px;">
+        <text class='line'></text> 2~6岁 儿童天赋测评
+        <text class='line'></text>
+      </view>
+
+      <view class="intro">
+        各位家长，本测试主要用来调查多元智能状况。请您根据自己的真实情况及在自己日常生活中对您的宝宝进行评价时，是否注意到宝宝存在下列情况。答题时请不要迟疑或考虑太长时间；对感到不太容易回答的题目，请作出较为接近实际情况的选择。
+      </view>
+      <button class='yk_btn' open-type="getUserInfo" bindgetuserinfo="getUserInfo">
+        限时免费测评
+      </button>
+
+    </view>
+  </view>
+  <view class="background background2" wx:if="{{id==2}}">
+    <view class="share-body">
+      <image class="title" mode="widthFix" src="http://image.317hu.com/FsJzcmx3atkafLL2PVdE9pWsDjJm?imageView2/2/w/700/q/100/interlace/1" />
+
+      <view class="intro">
+        色觉感知的是最原始最纯粹的视觉天赋，拥有完美色觉的人，近乎全部答对，看看您的孩子对色彩的敏感度到底有多少？
+      </view>
+
+      <view class="share-res">
+        <!-- 已邀请
+        <text style="color:#FFEF5E">0</text> 人，再邀请
+        <text style="color:#FFEF5E">3</text> 人解锁
+        <view class="img-list">
+          <image src="{{defaultHearImg}}"></image>
+          <image src="{{defaultHearImg}}"></image>
+          <image src="{{defaultHearImg}}"></image>
+        </view> -->
+      </view>
+      <navigator url="/pages/test2/test2">
+        <button class='yk_btn'>
+          开始测试
+        </button>
+      </navigator>
+      <!-- <button wx:else bindtap='buyTest' class='yk_btn lock-btn'>
+          ¥9.9 直接解锁
+        </button> -->
+    </view>
+  </view>
+
+  <view class="background background3" wx:if="{{id==3}}">
+    <view class="share-body">
+      <image class="title" mode="widthFix" src="http://image.317hu.com/Fo0yElZVjuogCzrYjJd4PCAflYyh?imageView2/2/w/700/q/100/interlace/1" />
+
+      <view class="intro">
+        音乐天赋，应该包括三个方面，一是乐感，二是音色，三是音域。其中乐感是最重要的，如果只有音色和音域方面的天赋，而没有乐感的天赋，不可能在唱歌方面有所发展。因为音色在一定程度上可以通过演唱技巧加以修饰，音域也可以在一定程度上通过发声训练得以拓展，但乐感取决于人的听觉能力，特别是声音记忆再现能力，是纯粹的天赋，很难通过后天学习得到根本改变。
+      </view>
+      <navigator url="/pages/test3/test3">
+        <button class='yk_btn'>
+          开始测试
+        </button>
+      </navigator>
+    </view>
+  </view>
+</view>

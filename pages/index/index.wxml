@@ -1,0 +1,47 @@
+<!--index.wxml-->
+<view class="page">
+  <view class="page-body">
+    <view hidden="{{selectTab != '1'}}">
+      <test-list listData="{{testList}}" />
+    </view>
+    <view hidden="{{selectTab != '2'}}">
+      <view class="main-page">
+        <view class='chart-content'>
+          <view class="title">
+            <text class='line'></text>
+            <image mode="widthFix" src="http://image.317hu.com/Fo4bgCt14_JvFd0lJw18Pw76hPl2?imageView2/2/w/700/q/100/interlace/1" /> 综合测评结果
+            <text class='line'></text>
+          </view>
+          <canvas disable-scroll="true" style="margin:auto;width: 340px; height: 300px;" canvas-id="canvas"></canvas>
+          <view class='yk_btn'>
+            <navigator url="/pages/reportList/reportList">
+              查看全部报告
+            </navigator>
+          </view>
+        </view>
+
+        <view class='adver'>
+          <text class='line'></text> 领取知名早教机构优惠
+          <text class='line'></text>
+        </view>
+        <AdList/>
+      </view>
+    </view>
+  </view>
+  <view class="page-bottom">
+    <bottom-menu-com selectTab="{{selectTab}}" bindswitchtab="switchTab" />
+  </view>
+</view>
+<view hidden="{{!showAuthModal}}">
+  <view class="modal-bg"></view>
+  <view class="modal-body">
+    <view class="modal-title">温馨提示</view>
+    <view class="modal-content">
+      <view>您是首次使用我们的小程序</view>
+      <view>请您先对我们的小程序授权</view>
+    </view>
+    <button class="modal-btn" open-type="getUserInfo" bindgetuserinfo="getUserInfo">
+      点击授权
+    </button>
+  </view>
+</view>

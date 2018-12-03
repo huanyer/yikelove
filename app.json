@@ -1,0 +1,26 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/result/result3/result3",
+    
+    "pages/test3/test3",
+    
+    "pages/adInfo/adInfo",
+    "pages/result/result",
+    "pages/reportList/reportList",
+    "pages/testIntro/testIntro",
+    "pages/result/result2/result2",
+    "pages/test2/test2",
+    "pages/specialResult/specialResult",
+    "pages/test/test",
+    "pages/sharePage/sharePage",
+    "pages/logs/logs"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f8f8f8",
+    "navigationBarTitleText": "儿童天赋测评",
+    "navigationBarTextStyle": "black"
+  }
+}

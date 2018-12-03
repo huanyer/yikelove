@@ -1,0 +1,13 @@
+/**app.wxss**/
+
+page {
+  height: 100%;
+}
+
+.page {
+  height: 100%;
+  position: relative;
+  font-family: STYuanti-TC-Regular;
+  letter-spacing: 0;
+}
+@import 'public.wxss';

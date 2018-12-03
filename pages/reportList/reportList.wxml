@@ -1,0 +1,23 @@
+<!--pages/reportList/reportList.wxml-->
+<view class="page">
+  <view class="list" wx:if="{{!noAnswer}}">
+    <view class='item' wx:for="{{listData}}" wx:if="{{item.status == 1}}" wx:key='item'>
+      <navigator url="{{item.link}}">
+        <image mode="widthFix" class='item-bg' src="{{item.bgImg}}" />
+        <text class='item-name'>{{item.name}}</text>
+        <!-- <view class='item-status' wx:if="{{item.status == 1}}">
+          <image mode="widthFix" class='status-img' src="{{unLockImg}}" />已解锁
+        </view>
+        <view class='item-status' wx:else>
+          <image mode="widthFix" class='status-img' src="{{lockImg}}" />未解锁
+        </view> -->
+      </navigator>
+    </view>
+  </view>
+  <view style="padding-top:100rpx;text-align:center" wx:else>
+    您还未做过任何问卷测试
+    <navigator url="/pages/testIntro/testIntro?id=1">
+      <button class="btn">点击前往综合测试问卷</button>
+    </navigator>
+  </view>
+</view>

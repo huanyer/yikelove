@@ -1,0 +1,75 @@
+/* pages/testIntro/testIntro.wxss */
+
+.page {
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  bottom: 0;
+  color: #fff;
+}
+.background1{
+  background: #3682ca url('http://image.317hu.com/Fhhcnmh0pDx2vSSlE6JZ2ueWDeyy?imageView2/2/w/700/q/100/interlace/1') 0 0 no-repeat;
+  background-size: 100% 100%;
+}
+.background2 {
+  background: #3682ca url('http://image.317hu.com/FiQmRdEWp_b-lgPtabd0txQSSGqE?imageView2/2/w/700/q/100/interlace/1') 0 0 no-repeat;
+  background-size: 100% 100%;
+}
+.background3 {
+  background: #3682ca url('http://image.317hu.com/Fu5BRtPU-OgQpKoP_zLTiXn3V2IC?imageView2/2/w/700/q/100/interlace/1') 0 0 no-repeat;
+  background-size: 100% 100%;
+}
+
+.share-body {
+  position: absolute;
+  top: 25%;
+  bottom: 10%;
+  width: 80%;
+  left: 10%;
+  text-align: center;
+}
+
+.title {
+  width: 60%;
+}
+
+.intro {
+  margin: 5% 0 ;
+  padding: 0 5%;
+  text-align: left;
+  font-size: 14px;
+}
+
+.line {
+  border: 1px solid #7aa5fa;
+}
+.yk_btn{
+  margin-top: 40rpx;
+}
+.lock-btn {
+  background: #fff;
+  font-family: STYuanti-TC-Bold;
+  font-size: 40rpx;
+  color: #ff5d43;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.share-res {
+  font-family: PingFangSC-Medium;
+  font-size: 36rpx;
+  color: #fff;
+  letter-spacing: 0;
+  text-align: center;
+  margin: 20rpx 0 0;
+  height: 200rpx;
+}
+.img-list image{
+  width: 128rpx;
+  height: 128rpx;
+  border-radius: 100%;
+  margin: 20rpx;
+}

@@ -1,0 +1,54 @@
+/* pages/testList/testList.wxss */
+
+.item {
+  position: relative;
+  height: 250rpx;
+  width: 90%;
+  margin: 40rpx auto;
+  color: #fff;
+}
+
+.item-bg {
+  width: 100%;
+}
+
+.item-name {
+  position: absolute;
+  font-family: STYuanti-TC-Bold;
+  font-size: 64rpx;
+  letter-spacing: 0;
+  top: 30rpx;
+  left: 40rpx;
+}
+
+.item-status {
+  position: absolute;
+  font-family: STYuanti-TC-Bold;
+  font-size: 32rpx;
+  letter-spacing: 2rpx;
+  top: 150rpx;
+  left: 40rpx;
+}
+
+.status-img {
+  width: 60rpx;
+  vertical-align: middle;
+  margin-right: 10rpx;
+}
+
+.test-type {
+  position: absolute;
+  right: 20rpx;
+  top: 20rpx;
+  background: #fff;
+  border-radius: 26rpx;
+  font-family: STYuanti-TC-Bold;
+  font-size: 30rpx;
+  color: #eaa841;
+  letter-spacing: 0;
+  padding: 8rpx 16rpx;
+}
+
+.test-type2 {
+  color: #0d89bf;
+}

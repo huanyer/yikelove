@@ -1,0 +1,55 @@
+<!--pages/result/result.wxml-->
+<view class='page'>
+ <!-- <image src="data:image/png;base64,{{imgurl}}"></image>  -->
+  <view class='result {{"result"+maxIndex}}'>
+    <text class='res-title'>您宝宝的天赋是</text>
+
+    <view class='res-chart'>
+      <view class='res-info'>
+        <image class="title" mode="widthFix" src="http://image.317hu.com/FlzzzfUpOaBQwwy5uGwC_uZISimF?imageView2/2/w/700/q/100/interlace/1" />
+        <view class='content'>
+          <view class='res-score'>
+            <text style="font-family: STYuanti-TC-Bold;">{{result[maxIndex]}}</text>
+            <text style="font-size:32rpx"> 分</text>
+          </view>
+          <text class='res-ranking'>领先了全国 {{bfb}}% 的宝宝</text>
+        </view>
+      </view>
+      <canvas disable-scroll="true" style="margin:auto;width: 320px; height: 300px;" canvas-id="canvas"></canvas>
+    </view>
+
+    <button bindtap='savePic' class='yk_btn save-pic'>保存图片分享</button>
+  </view>
+
+  <view class='evaluate'>
+    <view class='evaluate-title'>综合分析</view>
+    <view class='evaluate-info'>
+      {{evaluateData[maxIndex]}}
+    </view>
+    <!-- <view class='see-more'>
+    </view> -->
+    <!-- <button class='yk_btn see-more-btn'>查看全部</button> -->
+  </view>
+  <view style="background:#fff;padding: 40rpx 0">
+    <view class='tab-title'>
+      第二步：宝宝完成测评，获得准确结果</view>
+
+    <view class='item' wx:if="{{showOtherTest}}">
+      <navigator url="{{testItem.link}}">
+        <image mode="widthFix" class='item-bg' src="{{testItem.bgImg}}" />
+        <text class='item-name'>{{testItem.name}}</text>
+        <view class='item-status' wx:if="{{testItem.status == 1}}">
+          <image mode="widthFix" class='status-img' src="{{unLockImg}}" />已解锁
+        </view>
+        <view class='item-status' wx:else>
+          <image mode="widthFix" class='status-img' src="{{lockImg}}" />未解锁
+        </view>
+      </navigator>
+    </view>
+
+    <navigator url='/pages/index/index' class='yk_btn more-test-btn'>更多测评</navigator>
+  </view>
+
+<canvas hidden="{{canvasPicHidden}}" style="margin:auto;width: 370px; height: 750px;" canvas-id="canvasPic"></canvas>
+  
+</view>

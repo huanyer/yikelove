@@ -1,0 +1,48 @@
+/* pages/bottomMenuCom/bottomMenuCom.wxss */
+
+.reset-default-btn {
+  background-color: #fff;
+  overflow: auto;
+  line-height: 1;
+  border-radius: 0;
+}
+button.reset-default-btn::after{
+  border: none;
+}
+
+.bottom-bar {
+  position: fixed;
+  background: #fff;
+  line-height: 80rpx;
+  bottom: 0;
+  height: 80rpx;
+  padding: 20rpx;
+  display: flex;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0rpx 0rpx 50rpx rgba(0, 0, 0, 0.1);
+  font-family: STYuanti-TC-Regular;
+  font-size: 36rpx;
+  color: #4a4a4a;
+  letter-spacing: 0;
+}
+
+.my-test {
+  flex: 1;
+  border-right: 2rpx solid #d5d5d5;
+}
+
+.test-report {
+  flex: 1;
+}
+
+.active {
+  font-size: 36rpx;
+  font-family: STYuanti-TC-Bold;
+  color: #ff9f00;
+}
+
+.bottom-bar image {
+  width: 70rpx;
+  vertical-align: middle;
+}

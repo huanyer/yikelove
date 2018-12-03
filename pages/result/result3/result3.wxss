@@ -1,0 +1,61 @@
+/* pages/result/result2/result2.wxss */
+.page {
+  background-color: #fdfafa;
+}
+.result-top {
+  position: relative;
+}
+
+.title1, .title2, .title3 {
+  position: absolute;
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 32rpx;
+  letter-spacing: 0;
+}
+
+.title1 {
+  color: #a0a0a0;
+  top: 280rpx;
+}
+
+.title2 {
+  font-family: STYuanti-TC-Bold;
+  font-size: 72rpx;
+  color: #fe9710;
+  top: 330rpx;
+}
+
+.title3 {
+  color: #4a4a4a;
+  top: 450rpx;
+}
+.evaluate {
+  padding: 0 40rpx;
+  position: relative;
+}
+
+.evaluate-title {
+  font-size: 36rpx;
+  position: absolute;
+  top: -60rpx;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.evaluate-info {
+  font-size: 28rpx;
+  margin-top: 20rpx;
+}
+.tab-title{
+  padding: 40rpx 0;
+  text-align: center;
+  font-family: PingFangSC-Semibold;
+  font-size: 36rpx;
+  color: #060606;
+}
+.line{
+  border-style: dashed;
+}

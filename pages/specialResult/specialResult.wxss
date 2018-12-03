@@ -1,0 +1,103 @@
+/* pages/specialResult/specialResult.wxss */
+
+.page {
+  background-color: #fdfafa;
+}
+
+.result {
+  width: 100%;
+  height: 800rpx;
+  margin: auto;
+  background: #63d282 url('http://image.317hu.com/FnfCMRwfpseMI07r0mtAV-zDju4j') 0 0 no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+
+.result-info {
+  text-align: center;
+  position: absolute;
+  top: 300rpx;
+  width: 100%;
+}
+
+.content1 {
+  font-size: 32rpx;
+  color: #a0a0a0;
+}
+
+.content2 {
+  font-family: STYuanti-TC-Bold;
+  font-size: 72rpx;
+  color: #fe9710;
+}
+
+.content3 {
+  font-size: 32rpx;
+  color: #4a4a4a;
+}
+
+.yk_btn.save-pic {
+  position: absolute;
+  left: 25%;
+  bottom: 45px;
+  color: #000;
+  width: 50%;
+  background-image: linear-gradient(-180deg, #ffef5e 0%, #ffdb30 100%);
+}
+
+.evaluate {
+  padding: 0 40rpx;
+  position: relative;
+  background: #fff;
+}
+
+.evaluate-title {
+  font-size: 36rpx;
+  position: absolute;
+  top: -60rpx;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.evaluate-info {
+  font-size: 28rpx;
+  margin-top: 20rpx;
+}
+
+.see-more {
+  background-image: linear-gradient(-180deg, rgba(255, 255, 255, 0.00) 0%, #fff 75%);
+  position: absolute;
+  width: 100%;
+  left: 0;
+  height: 100rpx;
+  bottom: 70rpx;
+}
+
+.see-more-btn {
+  background-image: linear-gradient(-120deg, #fc775d 0%, #ff9f00 100%);
+  width: 300rpx;
+  color: #fff;
+  height: 70rpx;
+  line-height: 70rpx;
+  background-color: #fff;
+}
+
+.tab-title {
+  background-color: #fff;
+  font-family: PingFangSC-Semibold;
+  font-size: 36rpx;
+  color: #060606;
+  padding: 30rpx 0 20rpx;
+  text-align: center;
+}
+
+.more-test-btn {
+  background: #fff;
+  box-shadow: 0 4rpx 16rpx 0 rgba(0, 0, 0, 0.12);
+  border-radius: 26rpx;
+  font-family: STYuanti-TC-Bold;
+  font-size: 40rpx;
+  color: #ff9f00;
+  width: 90%;
+}

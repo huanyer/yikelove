@@ -1,0 +1,29 @@
+<!--pages/specialResult/specialResult.wxml-->
+<view class='page'>
+  <view class='result'>
+    <view class="result-info">
+      <view class="content1">您的宝宝离梵高</view>
+      <view class="content2">还有20年</view>
+      <view class="content3">得分88分，领先了全国 80% 的宝宝</view>
+    </view>
+
+    <button bindtap='savePic' class='yk_btn save-pic'>保存图片</button>
+  </view>
+
+  <view class='evaluate'>
+    <view class='evaluate-title'>综合分析</view>
+    <view class='evaluate-info'>
+      宝宝对自然界事物的观察与辨别能力一般。对自然景物有一些兴趣；有时会阅览以自然景象和动植物为主题的节目、图书；有时会到公园、植物园、水族馆参观；也会收集标本、饲养动物、种植花草树木，参加园艺或野外活动。
+    </view>
+    <view class='see-more'>
+    </view>
+    <button class='yk_btn see-more-btn'>查看全部</button>
+  </view>
+
+  <view style="background:#fff;padding: 40rpx 0">
+    <view class='tab-title'>
+      <text class="line"></text> 领取知名早教机构优惠
+      <text class="line"></text>
+    </view>
+  </view>
+</view>

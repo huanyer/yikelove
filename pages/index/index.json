@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "AdList" : "../components/adList/AdList",
+    "test-list": "../components/testList/TestList",
+    "bottom-menu-com": "../components/bottomMenuCom/BottomMenuCom"
+  }
+}

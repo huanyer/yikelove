@@ -1,0 +1,5 @@
+<view style="margin-bottom:20rpx;text-align: center;" wx:for="{{adData}}" wx:key="{{index}}">
+  <navigator url="/pages/adInfo/adInfo?id={{index}}">
+    <image mode='widthFix' style="width: 90%;" src="{{adData[index].url}}"></image>
+  </navigator>
+</view>

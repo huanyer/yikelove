@@ -1,0 +1,97 @@
+/**index.wxss**/
+.page{
+  height: 100%;
+}
+.page-body{
+  /* padding-bottom: 40rpx; */
+}
+.page-bottom{
+  height: 120rpx;
+  width: 100%;
+}
+.modal-bg {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background: #000;
+  opacity: 0.5;
+  z-index: 100;
+  overflow: hidden;
+}
+
+.modal-body {
+  position: fixed;
+  z-index: 101;
+  top: 20%;
+  width: 80%;
+  margin-left: 10%;
+  max-height: 80%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15rpx;
+  background:#fff;
+  text-align: center;
+}
+.modal-title{
+  padding: 30rpx;
+}
+.modal-content{
+  padding: 30rpx;
+  font-size: 32rpx;
+}
+.modal-btn{
+  color: #fff;
+  margin: 30rpx;
+  background-image: linear-gradient(-157deg, #ffcd00 0%, #ff9f00 100%);
+  border-radius: 100px;
+}
+
+.yk_btn{
+  background-image: linear-gradient(-157deg, #FFCD00 0%, #FF9F00 100%);
+  width: 80%;
+  border-radius: 200rpx;
+  color: #fff;
+  text-align: center;
+}
+.line{
+  display: inline-block;
+  width: 74rpx;
+  text-decoration: line-through;
+  border: 1rpx solid #d7d7d7;
+  vertical-align:middle;
+  margin: 0 10rpx;
+}
+.chart-content{
+  padding-bottom: 40rpx;
+  border-radius: 20rpx;
+  box-shadow: 0 14rpx 28rpx 0 rgba(0,0,0,0.10); 
+}
+.title{
+  font-family: STYuanti-TC-Bold;
+  font-size: 44rpx;
+  color: #000000;
+  letter-spacing: 0;
+  text-align: center;
+  margin-top: 40rpx;
+}
+.title image{
+  width:60rpx;
+  vertical-align: middle;
+  margin-right: 10rpx;
+}
+.yk_btn{
+  margin: auto;
+  height: 108rpx;
+  font-family: PingFangSC-Medium;
+  font-size: 40rpx;
+  line-height: 108rpx;
+}
+.adver{
+  padding: 40rpx 0;
+  text-align: center;
+  font-family: STYuanti-TC-Regular;
+  font-size: 36rpx;
+  color: #000000;
+  letter-spacing: 0;
+}

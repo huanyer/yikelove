@@ -1,0 +1,10 @@
+<!--pages/bottomMenuCom/bottomMenuCom.wxml-->
+<view class="bottom-bar">
+  <button class="reset-default-btn my-test {{selectTab==1?'active':''}}" bindtap='switchTab' data-tab="1">
+    <image mode="widthFix" src="{{selectTab==1?myTestImgActive:myTestImg}}" /> 测评题库
+  </button>
+
+  <button open-type="getUserInfo" bindgetuserinfo="getUserInfo" class="reset-default-btn test-report {{selectTab==2?'active':''}}" bindtap='switchTab' data-tab="2">
+    <image mode="widthFix" src="{{selectTab==2?reportListImgActive:reportListImg}}" /> 我的报告
+  </button>
+</view>

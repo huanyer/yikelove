@@ -1,0 +1,31 @@
+/* pages/sharePage/sharePage.wxss */
+.page{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  bottom: 0;
+  color:#fff;
+  background: #3682CA url('http://image.317hu.com/Fhhcnmh0pDx2vSSlE6JZ2ueWDeyy?imageView2/2/w/700/q/100/interlace/1') 0 0 no-repeat;
+  background-size: 100% 100%; 
+}
+.share-body{
+  position: absolute;
+  top: 25%;
+  bottom: 10%;
+  width: 80%;
+  left: 10%;
+  text-align: center;
+}
+.title{
+  width: 60%;
+}
+.intro{
+  height: 55%;
+  margin-top: 5%;
+  padding: 0 5%;
+  text-align: left;
+  font-size: 14px;
+}
+.line{
+  border: 1px solid #7AA5FA;
+}

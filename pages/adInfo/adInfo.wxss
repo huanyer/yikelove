@@ -1,0 +1,109 @@
+/* pages/adInfo/adInfo.wxss */
+
+.title {
+  display: block;
+  font-family: STYuanti-TC-Bold;
+  font-size: 44rpx;
+  color: #000;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.info {
+  font-size: 32rpx;
+  color: #000;
+  letter-spacing: 0;
+  padding: 30rpx;
+}
+
+.xsyh {
+  color: #9b9b9b;
+  text-align: center;
+}
+
+.line {
+  width: 200rpx;
+  border-style: dashed;
+}
+
+.discount-frame {
+  background: #fff;
+  box-shadow: 0 4px 12px 0 rgba(142, 142, 142, 0.28);
+  border-radius: 13px;
+  width: 90%;
+  margin: 40rpx auto;
+  height: 200rpx;
+}
+
+.business-img {
+  width: 168rpx;
+  height: 126rpx;
+  margin: 30rpx 30rpx 0 30rpx;
+  vertical-align: top;
+}
+
+.business-intro {
+  display: inline-block;
+  padding-top: 30rpx;
+}
+
+.business-intro .name {
+  font-size: 36rpx;
+  color: #000;
+}
+
+.price {
+  font-family: PingFangSC-Semibold;
+  font-size: 44rpx;
+  color: #ff9f00;
+}
+
+.reprice {
+  font-size: 36rpx;
+  color: #b2b2b2;
+  display: inline-block;
+  margin-left: 20rpx;
+  text-decoration: line-through;
+}
+
+.modal-bg {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background: #000;
+  opacity: 0.5;
+  z-index: 100;
+  overflow: hidden;
+}
+
+.modal-body {
+  position: fixed;
+  z-index: 101;
+  width: 100%;
+  bottom: 0;
+  border-top-right-radius: 30rpx;
+  border-top-left-radius: 30rpx;
+  background:#fff;
+  text-align: center;
+}
+.modal-title{
+  padding: 30rpx;
+}
+.modal-content{
+  padding: 30rpx;
+  font-size: 32rpx;
+}
+.name-input{
+  display: block;
+  text-align: left;
+  padding: 20rpx 40rpx;
+  width: 80%;
+  margin: auto;
+  background-color:#f2f2f2;
+  margin-bottom: 40rpx;
+  border-radius: 40rpx;
+}
+.yk_btn{
+  width: 90%;
+}

@@ -1,0 +1,42 @@
+/* pages/reportList/reportList.wxss */
+.item {
+  position: relative;
+  height: 250rpx;
+  width: 90%;
+  margin: 40rpx auto;
+  color: #fff;
+}
+
+.item-bg {
+  width: 100%;
+}
+
+.item-name {
+  position: absolute;
+  font-family: STYuanti-TC-Bold;
+  font-size: 64rpx;
+  letter-spacing: 0;
+  top: 30rpx;
+  left: 40rpx;
+}
+
+.item-status {
+  position: absolute;
+  font-family: STYuanti-TC-Bold;
+  font-size: 32rpx;
+  letter-spacing: 2rpx;
+  top: 150rpx;
+  left: 40rpx;
+}
+.status-img{
+  width: 60rpx;
+  vertical-align: middle;
+  margin-right: 10rpx;
+}
+.btn{
+  color: #fff;
+  width: 80%;
+  margin: 30rpx auto;
+  background-image: linear-gradient(-157deg, #ffcd00 0%, #ff9f00 100%);
+  border-radius: 100px;
+}

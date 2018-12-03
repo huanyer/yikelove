@@ -1,0 +1,20 @@
+.yk_btn{
+  display: block;
+  margin: auto;
+  background-image: linear-gradient(-157deg, #FFCD00 0%, #FF9F00 100%);
+  width: 80%;
+  border-radius: 200rpx;
+  color: #fff;
+  text-align: center;
+  font-size: 40rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+.line{
+  display: inline-block;
+  width: 74rpx;
+  text-decoration: line-through;
+  border: 1rpx solid #d7d7d7;
+  vertical-align:middle;
+  margin: 0 10rpx;
+}

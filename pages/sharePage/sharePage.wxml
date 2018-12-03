@@ -1,0 +1,18 @@
+<!--pages/sharePage/sharePage.wxml-->
+<view class="page">
+  <view class="share-body">
+    <image class="title" mode="widthFix" src="http://image.317hu.com/FsCK6XkExXBDYmIRGXqYT63uP7w2?imageView2/2/w/700/q/100/interlace/1" />
+
+    <view style="font-size:14px;">
+      <text class='line'></text> 2~6岁 儿童天赋测评
+      <text class='line'></text>
+    </view>
+
+    <view class="intro">
+      各位家长，本测试主要用来调查多元智能状况。请您根据自己的真实情况及在自己日常生活中对您的宝宝进行评价时，是否注意到宝宝存在下列情况。答题时请不要迟疑或考虑太长时间；对感到不太容易回答的题目，请作出较为接近实际情况的选择。
+    </view>
+
+    <button class='yk_btn'> 限时免费测评 </button>
+  </view>
+
+</view>
